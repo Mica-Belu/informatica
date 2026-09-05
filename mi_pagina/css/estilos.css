@@ -1,0 +1,123 @@
+
+
+/* ---------- Fondo y tipografía general ---------- */
+body {
+  margin: 0;
+  background-color: #fbf7ef;
+  color: #20232b;
+  font-family:  "Inter", "Segoe UI", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+/* ---------- Encabezado y navegación ---------- */
+header {
+  background-color: #20232b;
+  color: #fbf7ef;
+  padding: 28px 24px;
+}
+
+header .contenedor {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+nav {
+  margin-top: 14px;
+}
+
+nav a {
+  color: #fbf7ef;
+  margin-right: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 2px;
+}
+
+
+/* ---------- Contenedor principal ---------- */
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 40px 24px 60px;
+}
+
+/* ---------- Títulos ---------- */
+h1 {
+  font-family: "Fraunces", Georgia, "Times New Roman", serif;
+  font-size: 2.4rem;
+  margin: 0;
+  color: #fbf7ef;
+}
+
+h2 {
+  font-family: "Fraunces", Georgia, "Times New Roman", serif;
+  font-size: 1.7rem;
+  color: #5c3a5c;
+  margin-top: 0;
+}
+
+h3 {
+  font-family: "Fraunces", Georgia, "Times New Roman", serif;
+  font-size: 1.25rem;
+  color: #5c3a5c;
+  margin: 0 0 10px 0;
+}
+
+/* ---------- Párrafos ---------- */
+p {
+  margin: 0 0 16px 0;
+  max-width: 65ch;
+}
+
+/* ---------- Enlaces ---------- */
+a {
+  color: #5c3a5c;
+}
+
+a:hover,
+a:focus {
+  color: #e3a857;
+}
+
+/* ---------- Imágenes ---------- */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.imagen-portada {
+  height:500px;
+  margin-top: 30px;
+  border: 1px solid #e4ddcd;
+}
+
+/* ---------- Sección de cards ---------- */
+.cards {
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+
+/* ---------- Card individual (Modelo de Cajas) ---------- */
+.card {
+  width: 320px;
+  padding: 18px;
+  margin: 0;
+  border: 1px solid #e4ddcd;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+.card img {
+  margin-bottom: 14px;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
